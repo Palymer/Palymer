@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" role="img" aria-label="Palymer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#081018"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="42%" r="38%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="88%" cy="20%" r="32%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="48" patternUnits="userSpaceOnUse">
+      <path d="M14 0 L28 8 L28 24 L14 32 L0 24 L0 8 Z" fill="none" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="260" rx="28" fill="url(#bg)"/>
+  <rect width="1100" height="260" rx="28" fill="url(#glow)"/>
+  <rect width="1100" height="260" rx="28" fill="url(#glow2)"/>
+  <rect width="1100" height="260" rx="28" fill="url(#grid)"/>
+  <rect x="1.2" y="1.2" width="1097.6" height="257.6" rx="26.8" fill="none" stroke="#94a3b8" stroke-opacity="0.16"/>
+
+  <g transform="translate(64,78)" fill="none" stroke-linecap="round">
+    <polygon points="48,8 80,26 80,62 48,80 16,62 16,26" stroke="url(#accent)" stroke-width="2.4"/>
+    <polygon points="48,22 66,32 66,52 48,62 30,52 30,32" stroke="url(#warm)" stroke-width="1.6" opacity="0.9"/>
+    <circle cx="48" cy="42" r="4.5" fill="#2dd4bf"/>
+    <circle cx="80" cy="26" r="3" fill="#38bdf8"/>
+    <circle cx="16" cy="62" r="3" fill="#f59e0b"/>
+    <path d="M80 26 L118 18 L150 36" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4"/>
+    <circle cx="150" cy="36" r="3" fill="#38bdf8" opacity="0.8"/>
+    <path d="M16 62 L-8 88" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.3"/>
+  </g>
+
+  <text x="250" y="108" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="4" fill="#f8fafc">PALYMER</text>
+  <rect x="250" y="124" width="168" height="4" rx="2" fill="url(#accent)"/>
+  <text x="430" y="130" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8" letter-spacing="1.4">DEVOPS · SUPPORT · TOOLS</text>
+  <text x="250" y="172" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="20" fill="#cbd5e1">8HC CB8;8BK, :>B>@K<8 ?>;L7CNAL A0<</text>
+  <text x="250" y="202" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#5eead4">LinuxDiskInfo  ·  Winora  ·  HivePatch  ·  yandex-speed-cli</text>
+</svg>
